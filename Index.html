@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark Template</title>
+      <link rel="stylesheet" href="CSS/all.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="JS/bootstrap.bundle.js"></script>
+  </head>
+
+  <body>
+    <div class="container"><h1 class="m-5"><sup >@</sup>Bookmark</h1></div>
+    <div class="container bookmark text-center py-5">
+      <h2 class="my-5">Bookmark your favourite site</h2>
+      <label for="siteName" class="my-3">Site Name:</label>
+      <input type="text" name="" id="siteName" class="form-control">
+      <label for="siteUrl" class="my-3">Site URL:</label>
+      <input type="text" name="" id="siteUrl" class="form-control">
+      <button class="btn btn-outline-dark my-5" onclick="addSite()">Submit</button>
+
+      <table class="table table-light">
+        <thead>
+          <th>Index</th>
+          <th>Web Site</th>
+          <th>Visit</th>
+          <th>Delete</th>
+        </thead>
+        <tbody id="displayData">
+        </tbody>
+      </table>
+    </div>
+    <footer class="container">
+      <p class="fw-bold">@ 2019 Bookmark Inc.</p>
+    </footer>
+    <script src="JS/main.js"></script>
+  </body>
+  <!-- PaulaSoliman94.develop@gmail.com -->
+  <!-- 01221521221 -->
+</html>
